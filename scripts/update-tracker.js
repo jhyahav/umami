@@ -5,7 +5,7 @@ const path = require('path');
 const endPoint = process.env.COLLECT_API_ENDPOINT;
 
 if (endPoint) {
-  const file = path.resolve(__dirname, '../public/umami.js');
+  const file = path.resolve(__dirname, '../public/teaforme.js');
 
   const tracker = fs.readFileSync(file);
 
@@ -14,5 +14,5 @@ if (endPoint) {
     tracker.toString().replace(/"\/api\/collect"/g, `"${endPoint}"`),
   );
 
-  console.log(`Updated tracker endpoint: ${endPoint}.`);
+  //console.log(`Updated tracker endpoint: ${endPoint}.`);
 }

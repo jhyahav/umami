@@ -4,7 +4,7 @@ const os = require('os');
 const isCI = require('is-ci');
 const pkg = require('../package.json');
 
-const dest = path.resolve(__dirname, '../.next/cache/umami.json');
+const dest = path.resolve(__dirname, '../.next/cache/teaforme.json');
 const url = 'https://telemetry.umami.is/api/collect';
 
 async function sendTelemetry(action) {

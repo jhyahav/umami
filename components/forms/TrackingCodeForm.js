@@ -28,7 +28,7 @@ export default function TrackingCodeForm({ values, onClose }) {
           spellCheck={false}
           defaultValue={`<script async defer data-website-id="${values.website_uuid}" src="${
             document.location.origin
-          }${basePath}/${trackerScriptName ? `${trackerScriptName}.js` : 'umami.js'}"></script>`}
+          }${basePath}/${trackerScriptName ? `${trackerScriptName}.js` : 'teaforme.js'}"></script>`}
           readOnly
         />
       </FormRow>

@@ -27,7 +27,7 @@ function customScriptName(req) {
     const names = scriptName.split(',').map(name => name.trim() + '.js');
 
     if (names.find(name => pathname.endsWith(name))) {
-      url.pathname = '/umami.js';
+      url.pathname = '/teaforme.js';
       return NextResponse.rewrite(url);
     }
   }

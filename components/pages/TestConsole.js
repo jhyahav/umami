@@ -47,7 +47,7 @@ export default function TestConsole() {
             async
             defer
             data-website-id={website.website_uuid}
-            src={`${basePath}/umami.js`}
+            src={`${basePath}/teaforme.js`}
             data-cache="true"
           />
         )}
